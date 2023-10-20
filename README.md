@@ -1,6 +1,6 @@
 <div align="center">
   
-  # [Portfolio (Em progresso 🔨)](https://samubarreto.github.io/Portfolio/)
+  # [Portfolio (Em construção 🔨)](https://samubarreto.github.io/Portfolio/)
   [Versão web do meu portfólio para fácil visualização dos meus projetos.](https://samubarreto.github.io/Portfolio/)<br>
   
   # [📧 Contato](https://linktr.ee/sampereirabrt)
