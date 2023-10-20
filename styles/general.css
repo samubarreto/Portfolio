@@ -1,3 +1,9 @@
-body {
+.corpo {
+  font-family: Roboto, Arial;
+  font-weight: 900;
   background-color: #222222;
+  color: white;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
 }
