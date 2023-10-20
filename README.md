@@ -1,7 +1,7 @@
 <div align="center">
   
-  # Portfolio (Em progresso 🔨)
-  Versão web do meu portfólio para fácil visualização dos meus projetos.<br>
+  # [Portfolio (Em progresso 🔨)](https://samubarreto.github.io/Portfolio/)
+  [Versão web do meu portfólio para fácil visualização dos meus projetos.](https://samubarreto.github.io/Portfolio/)<br>
   
   # [📧 Contato](https://linktr.ee/sampereirabrt)
   [![Linktree](https://img.shields.io/badge/linktree-1de9b6?style=for-the-badge&logo=linktree&logoColor=white)](https://linktr.ee/sampereirabrt)
@@ -11,9 +11,6 @@
   [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://www.instagram.com/sampereirabrt/)
   [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/samubarreto)
   [![Behance](https://img.shields.io/badge/Behance-1769ff?style=for-the-badge&logo=behance&logoColor=white)](https://www.behance.net/sampbrtdesign)
-  
-  # [📁 Meu Portfólio](https://github.com/samubarreto/Portfolio)
-  [Em construção 🔨](https://samubarreto.github.io/Portfolio/) <br>
   
   # [🌐 Meus projetos Web](https://linktr.ee/sampereirabrt)
   [JS-Calculator ➕](https://samubarreto.github.io/js-calculator/)<br>
