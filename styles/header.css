@@ -8,7 +8,6 @@ header {
   background-color: #181818;
   box-shadow: 0 1px 20px rgba(0, 0, 0, 0.6);
   border-bottom-left-radius: 40px;
-  border-bottom-right-radius: 40px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -37,6 +36,12 @@ header {
   transition: all 0.2s;
 }
 
+.logo-name:active,
+.nav-item:active,
+.icon:active {
+  opacity: 0.5;
+}
+
 .header-list {
   display: flex;
   flex-direction: row;
@@ -49,5 +54,59 @@ header {
 
 .nav-item {
   transition: all 0.5s;
+  margin: 0 0 0 3.5rem;
+}
+
+.mobile-menu-icon,
+.mobile-menu {
+  display: none;
+}
+
+.icon {
+  fill: #f5f5f5;
+  height: 1.5rem;
+  background-color: transparent;
+  border: none;
   margin: 0 1.7rem;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.icon:hover {
+  color: white;
+  background-color: #222222;
+  padding: 3px 3px;
+  border-radius: 7px;
+  transition: all 0.2s;
+}
+
+@media (max-width: 866px) {
+  .nav-bar {
+    padding: 1.5rem 4rem;
+  }
+  .right-side {
+    display: none;
+  }
+  .mobile-menu-icon {
+    display: block;
+  }
+  .mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+  .mobile-menu .nav-item {
+    display: block;
+    padding-top: 1.2rem;
+  }
+  .mobile-menu-icon button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+}
+
+.open {
+  display: block;
 }
