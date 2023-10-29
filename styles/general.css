@@ -8,4 +8,11 @@
 
 body {
   background: #222222;
+  scroll-behavior: smooth;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
