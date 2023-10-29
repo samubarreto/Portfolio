@@ -1,5 +1,5 @@
 .main-section {
-  margin: 180px 1.5rem 0 1.5rem;
+  margin: 230px 1.5rem 230px 1.5rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-content: center;
@@ -21,11 +21,20 @@
 
 .main-links-container {
   margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
 }
 
 .main-text-links button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
   cursor: pointer;
-  padding: 1rem 3rem;
+  padding: 1rem 1.5rem;
   border: solid #fff 1px;
   color: white;
   background-color: transparent;
@@ -37,8 +46,12 @@
 
 .main-text-links button:hover {
   background-color: #003193;
-  border: none;
+  border-color: #003193;
   transition: all 0.15s;
+}
+
+.social-icon {
+  height: 18px;
 }
 
 h1 {
@@ -69,12 +82,14 @@ h2 {
   transform: scale(1.05);
 }
 
+.profile-pic:active {
+  transition: all 0.15s;
+  transform: scale(0.95);
+}
+
 @media (max-width:768px) {
   .main-section {
     grid-template-columns: 1fr;
     margin: 100px 20vw 0 20vw;
-  }
-  .profile-pic {
-    z-index: -200;
   }
 }

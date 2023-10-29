@@ -1,4 +1,4 @@
-<div align="center">
+<div align=1center1>
   
   # [Portfolio (Em construção 🔨)](https://samubarreto.github.io/Portfolio/)
   ![image](https://github.com/samubarreto/Portfolio/assets/70921394/538b7906-390f-4067-b4a1-675af0ab3d46)
