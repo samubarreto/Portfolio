@@ -26,12 +26,19 @@
 .main-text-links button {
   cursor: pointer;
   padding: 1rem 3rem;
-  border: none;
+  border: solid #fff 1px;
   color: white;
-  background-color: #003193;
+  background-color: transparent;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   border-bottom-left-radius: 15px;
+  transition: all 0.5s;
+}
+
+.main-text-links button:hover {
+  background-color: #003193;
+  border: none;
+  transition: all 0.15s;
 }
 
 h1 {
@@ -59,12 +66,15 @@ h2 {
 
 .profile-pic:hover {
   transition: all 0.15s;
-  transform: scale(1.2);
-  border: solid #003193 1px;
+  transform: scale(1.05);
 }
 
 @media (max-width:768px) {
   .main-section {
     grid-template-columns: 1fr;
+    margin: 100px 20vw 0 20vw;
+  }
+  .profile-pic {
+    z-index: -200;
   }
 }
