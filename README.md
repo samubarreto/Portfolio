@@ -1,7 +1,7 @@
 <div align='center'>
   
-  # [Portfolio (Em construção 🔨)](https://samubarreto.github.io/Portfolio/)
-  ![image](https://github.com/samubarreto/Portfolio/assets/70921394/72d9275e-d14a-46b6-b9a7-627184c6e58e)
+  # [Portfolio (Em construção 🔨, Clique Aqui)](https://samubarreto.github.io/Portfolio/)
+  ![image](https://github.com/samubarreto/Portfolio/assets/70921394/c5e0c15f-da32-47b0-8fea-45a5eb7bfe24)
   
   ## [📧 Contato](https://linktr.ee/sampereirabrt)
   [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/samubrreto/)
