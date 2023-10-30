@@ -1,5 +1,8 @@
 .projects-section {
-  width: 100%;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
   padding: 10px 0;
   background-color: #4f4f4f;
   display: flex;
