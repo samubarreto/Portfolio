@@ -77,7 +77,8 @@ h2 {
   background: linear-gradient(to right, #1c44a9, #003193, #0b45bb, #1c44a9);
   border-bottom-right-radius: 15px;
   border-bottom-left-radius: 15px;
-  padding: 5px 5px;
+  border-top-right-radius: 15px;
+  padding: 8px 8px;
   background-size: 200% 100%;
   animation: gradientAnimation 4s linear infinite;
 }
@@ -110,22 +111,33 @@ h2 {
 }
 
 @media (max-width:971px) {
+
   .main-section {
     grid-template-columns: 1fr;
     margin: 120px 100px;
   }
+
   .profile-pic {
     margin-bottom: 30px;
   }
-}
 
-@media (max-width:971px) {
   h1 {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
+    text-align: center;
   }
-  h2,
+
+  h2 {
+    font-size: 1rem;
+    padding: .8rem 1rem;
+    text-align: center;
+  }
+
   .main-text-links button {
     font-size: .8rem;
     padding: .8rem 1rem;
+  }
+
+  .main-links-container {
+    justify-content: center;
   }
 }
