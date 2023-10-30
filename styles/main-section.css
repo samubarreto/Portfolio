@@ -1,5 +1,5 @@
 .main-section {
-  margin: 230px 1rem;
+  margin: 230px 1rem 143px 1rem;
   display: grid;
   grid-template-columns: min-content 1fr;
   gap: 1.2rem;
