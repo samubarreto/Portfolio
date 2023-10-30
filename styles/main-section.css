@@ -1,7 +1,8 @@
 .main-section {
-  margin: 230px 1.5rem 230px 1.5rem;
+  margin: 230px 1rem;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: min-content 1fr;
+  gap: 1.2rem;
   align-content: center;
   justify-content: center;
   align-items: center;
