@@ -50,6 +50,7 @@ a {
   color: #fff;
   background-color: #003193;
   box-sizing: border-box;
+  box-shadow: #003193 0 0 10px;
 }
 
 .nav-link:hover {
