@@ -1,5 +1,5 @@
 .main-section {
-  margin: 13.1vh 1rem 13.1vh 1rem;
+  margin: 13.1vh 1rem;
   display: grid;
   grid-template-columns: min-content 1fr;
   gap: 1.2rem;
@@ -117,7 +117,7 @@ h2 {
 
   .main-section {
     grid-template-columns: 1fr;
-    margin: 120px 100px 80px 100px;
+    margin: 80px 0 80px 0;
   }
 
   .profile-pic {
@@ -130,6 +130,7 @@ h2 {
   }
 
   h2 {
+    margin: 0 5rem;
     font-size: 1rem;
     padding: .8rem 1rem;
     text-align: center;
@@ -142,5 +143,22 @@ h2 {
 
   .main-links-container {
     justify-content: center;
+    margin: 1.5rem 5rem 0 5rem;
+  }
+}
+
+@media (max-width:500px) {
+  h1 {
+    font-size: 1.3rem;
+  }
+
+  h2 {
+    font-size: .8rem;
+    padding: .6rem .8rem;
+  }
+
+  .main-text-links button {
+    font-size: .6rem;
+    padding: .6rem .8rem;
   }
 }
