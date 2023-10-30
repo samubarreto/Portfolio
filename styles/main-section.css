@@ -109,7 +109,7 @@ h2 {
   transform: scale(0.95);
 }
 
-@media (max-width:768px) {
+@media (max-width:971px) {
   .main-section {
     grid-template-columns: 1fr;
     margin: 120px 100px;
@@ -119,9 +119,9 @@ h2 {
   }
 }
 
-@media (max-width:461px) {
+@media (max-width:971px) {
   h1 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
   h2,
   .main-text-links button {
