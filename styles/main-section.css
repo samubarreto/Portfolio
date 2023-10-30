@@ -90,6 +90,9 @@ h2 {
 @media (max-width:768px) {
   .main-section {
     grid-template-columns: 1fr;
-    margin: 100px 20vw 0 20vw;
+    margin: 120px 20vw;
+  }
+  .profile-pic {
+    margin-bottom: 30px;
   }
 }
