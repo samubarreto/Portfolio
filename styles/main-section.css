@@ -80,7 +80,7 @@ h2 {
   border-top-right-radius: 15px;
   padding: 8px 8px;
   background-size: 200% 100%;
-  animation: gradientAnimation 4s linear infinite;
+  animation: gradientAnimation 2.5s linear infinite;
 }
 
 @keyframes gradientAnimation {
@@ -95,7 +95,10 @@ h2 {
 .profile-pic {
   cursor: pointer;
   height: 350px;
-  border-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
   transition: all 0.5s;
 }
 

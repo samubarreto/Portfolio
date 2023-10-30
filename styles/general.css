@@ -4,11 +4,11 @@
   box-sizing: border-box;
   font-family: 'Sometype Mono', monospace;
   color: #f5f5f5;
+  scroll-behavior: smooth;
 }
 
 body {
   background: #222222;
-  scroll-behavior: smooth;
 }
 
 body::-webkit-scrollbar {
