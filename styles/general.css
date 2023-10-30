@@ -12,6 +12,10 @@ body {
   height: 700px;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 main {
   display: flex;
   align-items: center;
