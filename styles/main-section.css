@@ -112,9 +112,20 @@ h2 {
 @media (max-width:768px) {
   .main-section {
     grid-template-columns: 1fr;
-    margin: 120px 20vw;
+    margin: 120px 100px;
   }
   .profile-pic {
     margin-bottom: 30px;
+  }
+}
+
+@media (max-width:461px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+  h2,
+  .main-text-links button {
+    font-size: .8rem;
+    padding: .8rem 1rem;
   }
 }
