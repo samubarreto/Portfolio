@@ -67,14 +67,27 @@ h1 {
 }
 
 h2 {
+  text-align: center;
   font-size: 1rem;
   font-weight: 400;
   color: white;
-  background-color: #003193;
-  border-top-right-radius: 15px;
+  background: #1c44a9;
+  background: -webkit-linear-gradient(to right, #1c44a9, #0b45bb, #003193, #1c44a9);
+  background: linear-gradient(to right, #1c44a9, #003193, #0b45bb, #1c44a9);
   border-bottom-right-radius: 15px;
   border-bottom-left-radius: 15px;
   padding: 5px 5px;
+  background-size: 200% 100%;
+  animation: gradientAnimation 4s linear infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
 }
 
 .profile-pic {
