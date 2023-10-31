@@ -116,6 +116,14 @@ h2 {
 
 @media (max-width:971px) {
 
+  .main-text-links button:hover {
+    box-shadow: #003193 0 0 15px;
+  }
+
+  .profile-pic:hover {
+    box-shadow: #003193 0 0 80px;
+  }
+
   .main-section {
     grid-template-columns: 1fr;
     margin: 50px 0 80px 0;
