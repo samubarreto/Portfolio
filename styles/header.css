@@ -74,7 +74,8 @@ a {
 
 .bar1,
 .bar2,
-.bar3 {
+.bar3,
+.bar4 {
   display: block;
   width: 28px;
   height: 3px;
@@ -85,19 +86,19 @@ a {
 }
 
 .bar4 {
-  opacity: 0.1;
-  display: block;
   width: 3px;
   height: 35px;
-  border-radius: 2px;
-  margin: 5px auto;
-  background-color: white;
-  transition: all 0.15s ease-in-out;
+  opacity: 0.1;
 }
 
 @media (max-width:971px) {
   .hamburger {
     display: block;
+  }
+
+  .bar4 {
+    width: 100px;
+    height: 3px;
   }
 
   .hamburger.active .bar1 {
