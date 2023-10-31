@@ -1,6 +1,6 @@
 <div align='center'>
   
-  # [Portfolio (Em construção 🔨, Clique Aqui)](https://samubarreto.github.io/Portfolio/)
+  # [Portfolio (Em construção 🔨 Clique Aqui)](https://samubarreto.github.io/Portfolio/)
   ![image](https://github.com/samubarreto/Portfolio/assets/70921394/c5e0c15f-da32-47b0-8fea-45a5eb7bfe24)
   
   ## [📧 Contato](https://linktr.ee/sampereirabrt)
