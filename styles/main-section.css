@@ -1,6 +1,7 @@
 .main-section {
-  margin: 13.1vh 1rem;
+  margin: 10% 0 8% 0;
   display: grid;
+  width: 50%;
   grid-template-columns: min-content 1fr;
   gap: 1.2rem;
   align-content: center;
@@ -68,7 +69,7 @@ h1 {
 }
 
 h2 {
-  text-align: center;
+  text-align: start;
   font-size: 1rem;
   font-weight: 400;
   color: white;
@@ -117,11 +118,11 @@ h2 {
 
   .main-section {
     grid-template-columns: 1fr;
-    margin: 80px 0 80px 0;
+    margin: 50px 0 80px 0;
   }
 
   .profile-pic {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 
   h1 {
