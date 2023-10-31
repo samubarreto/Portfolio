@@ -1,8 +1,7 @@
 .main-section {
-  margin: 10% 0 8% 0;
+  margin: 19vh 0;
   display: grid;
-  width: 59.5%;
-  grid-template-columns: min-content 1fr;
+  grid-template-columns: max-content 1fr;
   gap: 1.2rem;
   align-content: center;
   justify-content: center;
@@ -96,10 +95,10 @@ h2 {
 .profile-pic {
   cursor: pointer;
   height: 350px;
-  border-bottom-right-radius: 50%;
-  border-bottom-left-radius: 50%;
-  border-top-right-radius: 50%;
-  border-top-left-radius: 50%;
+  border-bottom-right-radius: 25%;
+  border-bottom-left-radius: 25%;
+  border-top-right-radius: 25%;
+  border-top-left-radius: 25%;
   transition: all 0.5s;
 }
 
@@ -125,13 +124,12 @@ h2 {
   }
 
   .main-section {
-    width: 80%;
-    grid-template-columns: 1fr;
-    margin: 50px 0 60px 0;
+    grid-template-columns: minmax(300px, 1fr);
+    margin: 15vh 0 0 0;
   }
 
   .profile-pic {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
   }
 
   h1 {
@@ -158,6 +156,22 @@ h2 {
 }
 
 @media (max-width:500px) {
+
+  .main-section {
+    width: 100%;
+    margin: 15vh 0 0 0;
+    justify-content: center;
+    grid-template-columns: minmax(300px, 1fr);
+  }
+
+  .main-links-container {
+    margin: 3px 10px;
+  }
+
+  .profile-pic {
+    height: 300px;
+  }
+
   h1 {
     font-size: 1.3rem;
   }
@@ -165,6 +179,7 @@ h2 {
   h2 {
     font-size: .8rem;
     padding: .6rem .8rem;
+    margin: 10px;
   }
 
   .main-text-links button {
