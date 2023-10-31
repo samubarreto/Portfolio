@@ -21,7 +21,7 @@ a {
   min-height: 70px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 0 34px;
 }
 
@@ -33,6 +33,7 @@ a {
 .nav-menu {
   display: flex;
   align-items: center;
+  text-align: center;
   gap: 60px;
 }
 
@@ -60,6 +61,15 @@ a {
 .hamburger {
   display: none;
   cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  padding: 2px 5px;
+}
+
+.hamburger:hover {
+  background-color: #003193;
+  box-sizing: border-box;
+  box-shadow: #003193 0 0 50px;
 }
 
 .bar1,
@@ -68,6 +78,17 @@ a {
   display: block;
   width: 28px;
   height: 3px;
+  border-radius: 2px;
+  margin: 5px auto;
+  background-color: white;
+  transition: all 0.15s ease-in-out;
+}
+
+.bar4 {
+  opacity: 0.1;
+  display: block;
+  width: 3px;
+  height: 35px;
   border-radius: 2px;
   margin: 5px auto;
   background-color: white;
