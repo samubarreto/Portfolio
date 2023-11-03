@@ -11,8 +11,18 @@ body {
   background: #222222;
 }
 
-body::-webkit-scrollbar {
-  display: none;
+::-webkit-scrollbar {
+  /*display: none;*/
+  width: .5em;
+}
+
+::-webkit-scrollbar-track {
+  background: #4f4f4f;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #222222;
+  border: .1em solid #4f4f4f;
 }
 
 main {
