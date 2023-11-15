@@ -1,14 +1,64 @@
 .projects-section {
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  padding: 10px 0;
+  width: 60%;
+  padding: 1rem 0 2rem 0;
   background-color: #4f4f4f;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 0.8rem;
+  flex-direction: column;
+  font-size: 1.5rem;
+  font-weight: 900;
+  gap: 20px;
+  border-bottom-right-radius: 35px;
+  border-bottom-left-radius: 35px;
+  border-top-right-radius: 35px;
+  margin: 0 0 3rem 0;
+}
+
+/* .bg1 {
+  background: #1c44a9;
+  background: -webkit-linear-gradient(to right, #1c44a9, #0b45bb, #003193, #1c44a9);
+  background: linear-gradient(to right, #1c44a9, #003193, #0b45bb, #1c44a9);
+}
+
+.bg2 {
+  background: #1c44a9;
+  background: -webkit-linear-gradient(to left, #1c44a9, #0b45bb, #003193, #1c44a9);
+  background: linear-gradient(to left, #1c44a9, #003193, #0b45bb, #1c44a9);
+} */
+
+.project-container {
+  background-color: #404040;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 8px 12px;
+  background-size: 400%;
+  animation: gradientAnimation 15s linear infinite;
+}
+
+.title {
+  font-size: 1.2rem;
+}
+
+.desc {
+  margin-top: 5px;
+  font-size: .9rem;
+  font-weight: 300;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 400%;
+  }
+}
+
+@media (max-width:971px) {
+  .projects-section {
+    margin: 3rem 0 3rem 0;
+  }
 }
 
 @media (max-width:500px) {

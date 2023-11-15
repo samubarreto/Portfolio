@@ -46,9 +46,9 @@ a {
   width: auto;
 }
 
-.nav-link:hover,
-.logo:hover,
-.hamburger:hover {
+.nav-link:hover, .nav-link:focus,
+.logo:hover, .logo:focus,
+.hamburger:hover, .hamburger:focus {
   color: #fff;
   background-color: #003193;
   box-sizing: border-box;

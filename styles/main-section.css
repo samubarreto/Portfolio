@@ -1,4 +1,5 @@
 .main-section {
+  width: 60%;
   margin: 19vh 0;
   display: grid;
   grid-template-columns: min-content 1fr;
@@ -45,7 +46,7 @@
   transition: all 0.5s;
 }
 
-.main-text-links button:hover {
+.main-text-links button:hover, button:focus {
   background-color: #003193;
   border-color: #003193;
   box-shadow: #003193 0 0 50px;
@@ -68,8 +69,8 @@ h1 {
 }
 
 h2 {
-  width: fit-content;
-  text-align: start;
+  display: block;
+  text-align: center;
   font-size: 1.08rem;
   font-weight: 400;
   color: white;
@@ -80,16 +81,16 @@ h2 {
   border-bottom-left-radius: 15px;
   border-top-right-radius: 15px;
   padding: 8px 12px;
-  background-size: 200% 100%;
-  animation: gradientAnimation 2.5s linear infinite;
+  background-size: 400%;
+  animation: gradientAnimation 15s linear infinite;
 }
 
 @keyframes gradientAnimation {
   0% {
-    background-position: 200% 0;
+    background-position: 0%;
   }
   100% {
-    background-position: -200% 0;
+    background-position: 400%;
   }
 }
 
@@ -103,7 +104,7 @@ h2 {
   transition: all 0.5s;
 }
 
-.profile-pic:hover {
+.profile-pic:hover, .profile-pic:focus {
   transition: all 0.15s;
   transform: scale(1.05);
   box-shadow: #003193 0 0 100px;
@@ -139,7 +140,7 @@ h2 {
   }
 
   h2 {
-    margin: 0 5rem;
+    display: block;
     font-size: .95rem;
     padding: .8rem 1rem;
     text-align: center;
