@@ -68,8 +68,9 @@ h1 {
 }
 
 h2 {
+  width: fit-content;
   text-align: start;
-  font-size: 1rem;
+  font-size: 1.08rem;
   font-weight: 400;
   color: white;
   background: #1c44a9;
@@ -78,7 +79,7 @@ h2 {
   border-bottom-right-radius: 15px;
   border-bottom-left-radius: 15px;
   border-top-right-radius: 15px;
-  padding: 8px 8px;
+  padding: 8px 12px;
   background-size: 200% 100%;
   animation: gradientAnimation 2.5s linear infinite;
 }
@@ -139,7 +140,7 @@ h2 {
 
   h2 {
     margin: 0 5rem;
-    font-size: 1rem;
+    font-size: .95rem;
     padding: .8rem 1rem;
     text-align: center;
   }
@@ -179,11 +180,15 @@ h2 {
   h2 {
     font-size: .8rem;
     padding: .6rem .8rem;
-    margin: 10px;
+    margin: 10px 0;
   }
 
   .main-text-links button {
     font-size: .6rem;
     padding: .6rem .8rem;
+  }
+  
+  .main-text-links {
+    align-items: center;
   }
 }
