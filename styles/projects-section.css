@@ -15,35 +15,70 @@
   margin: 0 0 3rem 0;
 }
 
-/* .bg1 {
-  background: #1c44a9;
-  background: -webkit-linear-gradient(to right, #1c44a9, #0b45bb, #003193, #1c44a9);
-  background: linear-gradient(to right, #1c44a9, #003193, #0b45bb, #1c44a9);
-}
-
-.bg2 {
-  background: #1c44a9;
-  background: -webkit-linear-gradient(to left, #1c44a9, #0b45bb, #003193, #1c44a9);
-  background: linear-gradient(to left, #1c44a9, #003193, #0b45bb, #1c44a9);
-} */
-
 .project-container {
-  background-color: #404040;
+  background-color: #454545;
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 8px 12px;
   background-size: 400%;
   animation: gradientAnimation 15s linear infinite;
+  gap: 1rem;
 }
 
 .title {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .desc {
   margin-top: 5px;
   font-size: .9rem;
   font-weight: 300;
+}
+
+.project-container button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  cursor: pointer;
+  padding: .5rem .9rem;
+  border: solid #fff 1px;
+  color: white;
+  background-color: transparent;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  transition: all 0.5s;
+}
+
+.project-container button:hover, button:focus {
+  background-color: #003193;
+  border-color: #003193;
+  box-shadow: #003193 0 0 25px;
+  transition: all 0.15s;
+  transform: translateY(-0.15rem);
+}
+
+.project-container button:active {
+  transition: all 0.15s;
+  transform: scale(0.95);
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  margin: 5px 0;
+  gap: 10px;
+}
+
+.project-img {
+  background-color: #4f4f4f;
+  border: none;
+  height: 200px;
+  width: 100%;
 }
 
 @keyframes gradientAnimation {
@@ -55,6 +90,12 @@
   }
 }
 
+@media (max-width:1366px) {
+  .projects-section {
+    width: 80%;
+  }
+}
+
 @media (max-width:971px) {
   .projects-section {
     margin: 3rem 0 3rem 0;
@@ -62,5 +103,11 @@
 
   .project-container {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width:500px) {
+  .projects-section {
+    width: 95%;
   }
 }

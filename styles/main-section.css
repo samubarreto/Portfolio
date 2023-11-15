@@ -52,6 +52,7 @@
   box-shadow: #003193 0 0 50px;
   transition: all 0.15s;
   transform: scale(1.05);
+  transform: translateY(-0.3rem);
 }
 
 .main-text-links button:active {

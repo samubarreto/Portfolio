@@ -53,6 +53,8 @@ a {
   background-color: #003193;
   box-sizing: border-box;
   box-shadow: #003193 0 0 50px;
+  transition: all 0.15s;
+  transform: translateY(-0.15rem);
 }
 
 .nav-link:active,
