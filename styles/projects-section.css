@@ -59,10 +59,8 @@
   .projects-section {
     margin: 3rem 0 3rem 0;
   }
-}
 
-@media (max-width:500px) {
-  .projects-section {
-    font-size: 0.7rem;
+  .project-container {
+    grid-template-columns: 1fr;
   }
 }
