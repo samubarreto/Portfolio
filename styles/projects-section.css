@@ -16,12 +16,10 @@
 }
 
 .project-container {
-  background-color: #454545;
+  background: #454545;
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 8px 12px;
-  background-size: 400%;
-  animation: gradientAnimation 15s linear infinite;
   gap: 1rem;
 }
 
@@ -79,15 +77,6 @@
   border: none;
   height: 200px;
   width: 100%;
-}
-
-@keyframes gradientAnimation {
-  0% {
-    background-position: 0%;
-  }
-  100% {
-    background-position: 400%;
-  }
 }
 
 @media (max-width:1366px) {
