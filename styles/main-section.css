@@ -180,6 +180,7 @@ h2 {
     width: 100%;
     justify-content: center;
     grid-template-columns: minmax(300px, 1fr);
+    margin: 20px 0;
   }
 
   .main-links-container {
