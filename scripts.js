@@ -1,13 +1,21 @@
 const hamburger = document.querySelector('.hamburger');
 const navMenu = document.querySelector('.nav-menu');
-const me = document.querySelector('.profile-pic');
+const navLinks = document.querySelectorAll('.nav-item');
+const eu = document.querySelector('.profile-pic');
 
 hamburger.addEventListener('click', () => {
     hamburger.classList.toggle('active');
     navMenu.classList.toggle('active');
-})
+});
 
-me.addEventListener('click', () => {
+navLinks.forEach((navLink) => {
+    navLink.addEventListener('click', () => {
+        hamburger.classList.remove('active');
+        navMenu.classList.remove('active');
+    });
+});
+
+eu.addEventListener('click', () => {
     let sound = new Audio('source/hurt-sfx.mp3');
     sound.play();
-})
+});
