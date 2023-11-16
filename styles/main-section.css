@@ -60,8 +60,24 @@
   transform: scale(0.95);
 }
 
-.social-icon {
+.social-icon,
+.down-arrow {
   height: 18px;
+}
+
+.down-arrow {
+  margin: 0 0 10px 0;
+  animation: upDown 1.7s ease-out infinite;
+}
+
+@keyframes upDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(1rem);
+  }
 }
 
 h1 {
