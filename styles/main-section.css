@@ -61,7 +61,8 @@
 }
 
 .social-icon,
-.down-arrow {
+.down-arrow,
+.tech-shield {
   height: 18px;
 }
 
@@ -130,6 +131,12 @@ h2 {
 .profile-pic:active {
   transition: all 0.15s;
   transform: scale(0.95);
+}
+
+@media (max-width:1400px) {
+  .main-section {
+    margin: 4vh 0 0 0;
+  }
 }
 
 @media (max-width:971px) {
