@@ -134,9 +134,19 @@ h2 {
 }
 
 @media (max-width:1366px) {
+
   .main-section {
     margin: 8vh 0 3vh 0;
   }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: .9rem;
+  }
+
 }
 
 @media (max-width:971px) {
@@ -151,7 +161,7 @@ h2 {
 
   .main-section {
     grid-template-columns: minmax(300px, 1fr);
-    margin: 8vh 0 0 0;
+    margin: 8vh 0 2.2vh 0;
   }
 
   .profile-pic {
