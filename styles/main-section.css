@@ -61,8 +61,7 @@
 }
 
 .social-icon,
-.down-arrow,
-.tech-shield {
+.down-arrow {
   height: 18px;
 }
 
@@ -100,7 +99,7 @@ h2 {
   border-top-right-radius: 15px;
   padding: 8px 12px;
   background-size: 400%;
-  animation: gradientAnimation 15s linear infinite;
+  animation: gradientAnimation 5s linear infinite;
 }
 
 @keyframes gradientAnimation {
