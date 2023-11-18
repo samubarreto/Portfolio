@@ -1,6 +1,6 @@
 .projects-section {
   width: 60%;
-  padding: 1rem 0 2rem 0;
+  padding: 1rem 0 .5rem 0;
   background-color: #4f4f4f;
   display: flex;
   justify-content: center;
@@ -90,6 +90,9 @@
 }
 
 .project-img {
+  border-top-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+  object-fit: cover;
   background-color: #4f4f4f;
   border: none;
   height: 100%;
@@ -110,7 +113,7 @@
 
 @media (max-width:971px) {
   .projects-section {
-    margin: 3rem 0 3rem 0;
+    margin: -45px 0 3rem 0;
   }
 
   .project-container {
