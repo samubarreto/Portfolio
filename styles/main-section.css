@@ -72,7 +72,7 @@
 
 @keyframes upDown {
   0%, 100% {
-    transform: translateY(0);
+    transform: translateY(-1rem);
   }
 
   50% {
@@ -94,12 +94,12 @@ h2 {
   background: #1c44a9;
   background: -webkit-linear-gradient(to right, #1c44a9, #0b45bb, #003193, #1c44a9);
   background: linear-gradient(to right, #1c44a9, #003193, #0b45bb, #1c44a9);
+  background-size: 400%;
+  animation: gradientAnimation 5s linear infinite;
   border-bottom-right-radius: 15px;
   border-bottom-left-radius: 15px;
   border-top-right-radius: 15px;
   padding: 8px 12px;
-  background-size: 400%;
-  animation: gradientAnimation 5s linear infinite;
 }
 
 @keyframes gradientAnimation {
