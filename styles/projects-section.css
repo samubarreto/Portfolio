@@ -1,6 +1,6 @@
 .projects-section {
   width: 60%;
-  padding: 1rem 0 .5rem 0;
+  padding: 1rem 0 2rem 0;
   background-color: #4f4f4f;
   display: flex;
   justify-content: center;
@@ -103,10 +103,7 @@
 
 .project-img:hover,
 .project-img:focus {
-  border-top-left-radius: 0px;
-  border-top-right-radius: 35px;
-  border-bottom-right-radius: 0px;
-  border-bottom-left-radius: 35px;
+  transform: scale(1.035);
   transition: all 0.15s;
 }
 
