@@ -90,6 +90,7 @@
 }
 
 .project-img {
+  image-rendering: optimizeSpeed;
   border-top-left-radius: 35px;
   border-bottom-right-radius: 35px;
   object-fit: cover;
@@ -97,6 +98,16 @@
   border: none;
   height: 100%;
   width: 100%;
+  transition: all 0.15s;
+}
+
+.project-img:hover,
+.project-img:focus {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 35px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 35px;
+  transition: all 0.15s;
 }
 
 .img-wrapper {
