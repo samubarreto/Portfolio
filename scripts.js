@@ -16,6 +16,6 @@ navLinks.forEach((navLink) => {
 });
 
 eu.addEventListener('click', () => {
-    let sound = new Audio('source/hurt-sfx.mp3');
+    let sound = new Audio('source/sfx.wav');
     sound.play();
 });
