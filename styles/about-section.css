@@ -1,10 +1,11 @@
 .about-me-section {
+  z-index: -1;
   background: #1c44a9;
   background: -webkit-linear-gradient(to right, #1c44a9, #0b45bb, #003193, #1c44a9);
   background: linear-gradient(to right, #1c44a9, #003193, #0b45bb, #1c44a9);
   background-size: 200%;
   animation: gradientAnimation 2.5s linear infinite;
-  margin: 0 0 2rem 0;
+  margin: 0;
   padding: 25px;
   display: flex;
   justify-content: center;
