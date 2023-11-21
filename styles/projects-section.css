@@ -91,7 +91,6 @@
 
 .project-img {
   image-rendering: optimizeSpeed;
-  background-size: 100%;
   border-top-left-radius: 35px;
   border-bottom-right-radius: 35px;
   object-fit: cover;
