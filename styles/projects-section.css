@@ -50,6 +50,10 @@
   transition: all 0.5s;
 }
 
+.shields-container {
+  cursor: default;
+}
+
 .tech-shield {
   height: 22px;
   padding: 3px;
