@@ -1,6 +1,6 @@
 <div align='center'>
   
   # [Portfolio (Clique Aqui ↗️)](https://samubarreto.github.io/Portfolio/)
-  ![image](https://github.com/samubarreto/Portfolio/assets/70921394/6c451ae4-83d0-4f46-8fac-c9d4e18bdae2)
+  [![github-banner](https://github.com/samubarreto/Portfolio/assets/70921394/71f68b0f-74d6-4722-970a-18c52263386c)](https://samubarreto.github.io/Portfolio/)
 
 </div>
