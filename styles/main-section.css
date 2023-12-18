@@ -124,7 +124,7 @@ h2 {
 .profile-pic:hover, .profile-pic:focus {
   transition: all 0.15s;
   transform: scale(1.05);
-  box-shadow: #003193 0 0 100px;
+  box-shadow: #4f4f4f 0 0 100px;
 }
 
 .profile-pic:active {
