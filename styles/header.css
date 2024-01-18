@@ -6,8 +6,6 @@ header {
   z-index: 100;
   background-color: #161616;
   box-shadow: #161616 0 3px 10px;
-  animation: fadeUpDown .9s ease-out;
-  transform: translateY(0px);
 }
 
 li {
@@ -95,6 +93,13 @@ a {
   width: 3px;
   height: 35px;
   opacity: 0.1;
+}
+
+@media (min-width:972px) {
+  header {
+    animation: fadeUpDown .9s ease-out;
+    transform: translateY(0px);
+  }
 }
 
 @media (max-width:971px) {
