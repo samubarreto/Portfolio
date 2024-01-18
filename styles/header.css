@@ -6,6 +6,8 @@ header {
   z-index: 100;
   background-color: #161616;
   box-shadow: #161616 0 3px 10px;
+  animation: fadeUpDown .9s ease-out;
+  transform: translateY(0px);
 }
 
 li {

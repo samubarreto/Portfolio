@@ -7,9 +7,12 @@
   align-content: center;
   justify-content: center;
   align-items: center;
+  animation: fadeUpDown .9s ease-out;
+  transform: translateY(0px);
 }
 
 .profile-container {
+  border-radius: 25%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -114,10 +117,7 @@ h2 {
 .profile-pic {
   cursor: pointer;
   height: 350px;
-  border-bottom-right-radius: 25%;
-  border-bottom-left-radius: 25%;
-  border-top-right-radius: 25%;
-  border-top-left-radius: 25%;
+  border-radius: 25%;
   transition: all 0.5s;
 }
 
