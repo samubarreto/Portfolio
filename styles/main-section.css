@@ -83,6 +83,15 @@
   }
 }
 
+@keyframes pulse {
+  0%, 100% {
+    box-shadow: #1c44a9 0 0 30px;
+  }
+  50% {
+    box-shadow: #1c44a9 0 0 70px;
+  }
+}
+
 h1 {
   font-size: 2.5rem;
   margin: 0 0 5px 0;
@@ -117,14 +126,16 @@ h2 {
 .profile-pic {
   cursor: pointer;
   height: 350px;
-  border-radius: 25%;
+  border-radius: 50%;
+  border: solid #1c44a9 7.5px;
   transition: all 0.5s;
+  animation: pulse 5s ease-out infinite;
 }
 
 .profile-pic:hover, .profile-pic:focus {
   transition: all 0.15s;
   transform: scale(1.05);
-  box-shadow: #4f4f4f 0 0 100px;
+  box-shadow: #123690 0 0 100px;
 }
 
 .profile-pic:active {
@@ -155,7 +166,7 @@ h2 {
   }
 
   .profile-pic:hover {
-    box-shadow: #4f4f4f 0 0 80px;
+    box-shadow: #1c44a9 0 0 80px;
   }
 
   .main-section {
