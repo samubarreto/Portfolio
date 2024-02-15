@@ -1,4 +1,5 @@
 .main-section {
+  text-wrap: nowrap;
   width: 60%;
   margin: 19vh 0;
   display: grid;
@@ -186,15 +187,14 @@ h2 {
   }
 
   h2 {
-    display: block;
-    font-size: .95rem;
-    padding: .8rem 1rem;
-    text-align: center;
+    font-size: .8rem;
+    padding: .6rem .8rem;
+    margin: 10px 0 0 0;
   }
 
   .main-text-links button {
-    font-size: .8rem;
-    padding: .8rem 1rem;
+    font-size: .7rem;
+    padding: .8rem .55rem;
   }
 
   .main-links-container {
@@ -237,5 +237,11 @@ h2 {
   
   .main-text-links {
     align-items: center;
+  }
+}
+
+@media (max-width:350px) {
+  .main-section {
+    text-wrap: wrap;
   }
 }
