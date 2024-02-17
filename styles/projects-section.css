@@ -117,6 +117,15 @@
   align-items: start;
 }
 
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 200%;
+  }
+}
+
 @media (max-width:1366px) {
   .projects-section {
     width: 80%;
