@@ -199,7 +199,7 @@ h1 {
 
   .emphasis-text {
     font-size: .8rem;
-    padding: .6rem .6rem;
+    padding: .6rem 5.5rem;
     margin: 10px 0 0 0;
   }
 
@@ -236,10 +236,7 @@ h1 {
   }
 
   .emphasis-text {
-    font-size: .8rem;
-    padding: .6rem .8rem;
-    text-align: center;
-    margin: 10px 0;
+    margin: 15px 0;
   }
 
   .main-text-links button {

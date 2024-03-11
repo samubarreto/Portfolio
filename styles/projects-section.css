@@ -1,4 +1,5 @@
 .projects-section {
+  animation: fadeUpDown .9s ease-out;
   width: 60%;
   padding: 1rem 0 2rem 0;
   background-color: #4f4f4f;
