@@ -1,322 +1,374 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="author" content="Samuel Pereira Barreto">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta names="keywords" content="Interface, FrontEnd, developer, web, JavaSript, CSS, HTML, Samuel Pereira, Github, Portfolio, web developer, Git">
-    <meta name="description" content="A web version of my portfolio, by Samuel Pereira (@samubarreto on Github)">
-    <meta property="og:image" content="https://samubarreto.github.io/Portfolio/source/favicon.png">
-    <meta property="og:image:width" content="128">
-    <meta property="og:image:height" content="128">
-    <meta property="og:image:alt" content="Open on your Browser">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Samuel Pereira Barreto">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta names="keywords"
+    content="Interface, FrontEnd, developer, web, JavaScript, CSS, HTML, Samuel Pereira, Github, Portfolio, web developer, Git">
+  <meta name="description" content="A web version of my portfolio, by Samuel Pereira (@samubarreto on Github)">
+  <meta property="og:image" content="https://samubarreto.github.io/Portfolio/source/favicon.png">
+  <meta property="og:image:width" content="128">
+  <meta property="og:image:height" content="128">
+  <meta property="og:image:alt" content="Open on your Browser">
 
-    <link rel="icon" href="source/favicon.png">
+  <link rel="icon" href="source/favicon.png">
 
-    <link rel="stylesheet" href="styles/general.css">
-    <link rel="stylesheet" href="styles/header.css">
-    <link rel="stylesheet" href="styles/main-section.css">
-    <link rel="stylesheet" href="styles/projects-section.css">
-    <link rel="stylesheet" href="styles/about-section.css">
-    <link rel="stylesheet" href="styles/footer.css">
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/main-section.css">
+  <link rel="stylesheet" href="styles/projects-section.css">
+  <link rel="stylesheet" href="styles/about-section.css">
+  <link rel="stylesheet" href="styles/footer.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sometype+Mono:ital,wght@0,400;0,600;0,700;1,700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sometype+Mono:ital,wght@0,400;0,600;0,700;1,700&display=swap"
+    rel="stylesheet">
 
-    <title>@samubarreto dev</title>
-  </head>
+  <title>@samubarreto dev</title>
+</head>
 
-  <body>
+<body>
 
-    <!-- Header -->
+  <!-- Header -->
 
-    <header>
-      <nav class="navbar">
-        <ul class="nav-menu">
-          <li class="nav-item">
-            <a href="https://linktr.ee/samubarreto" class="logo nav-link logo-header-desktop" target="_blank">@samu</a>
-          </li>
+  <header>
+    <nav class="navbar">
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="https://linktr.ee/samubarreto" class="logo nav-link logo-header-desktop" target="_blank">@samu</a>
+        </li>
 
-          <span class="bar4"></span>
+        <span class="bar4"></span>
 
-          <li class="nav-item">
-            <a href="#home" class="nav-link">Home</a>
-          </li>
+        <li class="nav-item">
+          <a href="#home" class="nav-link">Home</a>
+        </li>
 
-          <li class="nav-item">
-            <a href="#projects" class="nav-link">Projetos</a>
-          </li>
+        <li class="nav-item">
+          <a href="#projects" class="nav-link">Projetos</a>
+        </li>
 
-          <li class="nav-item">
-            <a href="#about" class="nav-link">Sobre</a>
-          </li>
+        <li class="nav-item">
+          <a href="#about" class="nav-link">Sobre</a>
+        </li>
 
-          <li class="nav-item">
-            <a href="#contact" class="nav-link">Contato</a>
-          </li>
+        <li class="nav-item">
+          <a href="#contact" class="nav-link">Contato</a>
+        </li>
 
-        </ul>
+      </ul>
 
-        <a href="https://linktr.ee/samubarreto" class="logo nav-link logo-header-mobile" target="_blank">@samu</a>
+      <a href="https://linktr.ee/samubarreto" class="logo nav-link logo-header-mobile" target="_blank">@samu</a>
 
-        <div class="hamburger">
-          <span class="bar1"></span>
-          <span class="bar2"></span>
-          <span class="bar3"></span>
+      <div class="hamburger">
+        <span class="bar1"></span>
+        <span class="bar2"></span>
+        <span class="bar3"></span>
+      </div>
+
+    </nav>
+  </header>
+
+  <!-- Principal -->
+
+  <div id="home" style="height: 70px;"></div>
+  <main>
+    <section class="main-section fadeUpDown">
+      <a href="https://linktr.ee/samubarreto" target="_blank">
+        <div class="profile-container">
+          <img src="source/profile2.jpg" alt="profile-pic" class="profile-pic">
         </div>
-        
-      </nav>
-    </header>
+      </a>
 
-    <!-- Principal -->
-    
-    <div id="home" style="height: 70px;"></div>
-    <main>
-      <section class="main-section fadeUpDown">
-        <a href="https://linktr.ee/samubarreto" target="_blank">
-          <div class="profile-container">
-            <img src="source/profile2.jpg" alt="profile-pic" class="profile-pic">
+      <div class="main-text-links">
+        <h1>👋 Oi, eu sou o Samuel.</h1>
+        <h2 class="emphasis-text"><strong>QA Tester</strong> Estagiário</h2>
+        <div class="main-links-container">
+          <a href="https://github.com/samubarreto" target="_blank">
+            <button>
+              <img src="source/github.png" alt="github-icon" class="social-icon">
+              Github
+            </button>
+          </a>
+
+          <a href="https://www.linkedin.com/in/samubrreto/" target="_blank">
+            <button>
+              <img src="source/linkedin.png" alt="linkedin-icon" class="social-icon">
+              LinkedIn
+            </button>
+          </a>
+
+          <a href="source/cv-Samuel.pdf" target="_blank">
+            <button>
+              <img src="source/cv.png" alt="curriculum-icon" class="social-icon">
+              Curriculum
+            </button>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projetos -->
+
+    <div id="projects" style="height: 70px;">
+      <img class="down-arrow" alt="down-arrow" src="source/down-arrow.png"></img>
+    </div>
+    <section class="projects-section">
+      🗂️ Veja meus Projetos
+
+      <div class="project-container">
+        <a href="https://samubarreto.github.io/Doletas/" target="_blank">
+          <div class="img-wrapper">
+            <img class="project-img" src="source/projects/doletas-img.jpg">
           </div>
         </a>
 
-        <div class="main-text-links">
-          <h1>👋 Oi, eu sou o Samuel.</h1>
-          <h2 class="emphasis-text"><strong>QA Tester</strong> Estagiário</h2>
-          <div class="main-links-container">
-            <a href="https://github.com/samubarreto" target="_blank">
+        <div class="project-content">
+          <p class="title">💲Doletas</p>
+          <p class="desc">[EM DESENVOLVIMENTO] Doletas é uma aplicação web que permite monitorar e comparar em tempo
+            real a valorização do
+            Real brasileiro.</p>
+          <div class="buttons-container">
+
+            <a href="https://samubarreto.github.io/Doletas/" target="_blank">
+              <button>
+                <img src="source/web-page.png" alt="webpage-icon" class="social-icon">
+                Visualizar
+              </button>
+            </a>
+
+            <a href="https://github.com/samubarreto/Doletas" target="_blank">
               <button>
                 <img src="source/github.png" alt="github-icon" class="social-icon">
-                Github
+                Código
               </button>
             </a>
 
-            <a href="https://www.linkedin.com/in/samubrreto/" target="_blank">
-              <button>
-                <img src="source/linkedin.png" alt="linkedin-icon" class="social-icon">
-                LinkedIn
-              </button>
-            </a>
-            
-            <a href="source/cv-Samuel.pdf" target="_blank">
-              <button>
-                <img src="source/cv.png" alt="curriculum-icon" class="social-icon">
-                Curriculum
-              </button>
-            </a>
+          </div>
+
+          <div class="shields-container">
+            <img src="source/html.png" alt="html-icon" class="tech-shield" title="HTML">
+            <img src="source/css.png" alt="css-icon" class="tech-shield" title="CSS">
+            <img src="source/js.png" alt="js-icon" class="tech-shield" title="JavaScript">
+            <img src="source/api.png" alt="api-icon" class="tech-shield" title="Api">
           </div>
         </div>
-      </section>
-
-      <!-- Projetos -->
-
-      <div id="projects" style="height: 70px;">
-        <img class="down-arrow" alt="down-arrow" src="source/down-arrow.png"></img>
       </div>
-      <section class="projects-section">
-        🗂️ Veja meus Projetos
 
-        <div class="project-container">
-          <a href="#home">
-            <div class="img-wrapper">
-              <img class="project-img" src="source/projects/portfolio-img.jpg">
-            </div>
-          </a>
-
-          <div class="project-content">
-            <p class="title">📁Meu Portfólio Pessoal</p>
-            <p class="desc">Pois é, esse meu portfólio é um dos meus maiores projetos web, e talvez o que mais se assemelha a um "site real". Com uma estrutura semelhante a uma landing page, ele foi desenvolvido com o objetivo de compartilhar meu perfil profissional e projetos com maior facilidade. O código dele está todo disponível no meu Github.</p>
-            <div class="buttons-container">
-              
-              <a href="#home" target="_blank">
-                <button>
-                  <img src="source/web-page.png" alt="webpage-icon" class="social-icon">
-                  Visualizar
-                </button>
-              </a>
-
-              <a href="https://github.com/samubarreto/Portfolio" target="_blank">
-                <button>
-                  <img src="source/github.png" alt="github-icon" class="social-icon">
-                  Código
-                </button>
-              </a>
-
-            </div>
-
-            <div class="shields-container">
-              <img src="source/html.png" alt="html-icon" class="tech-shield" title="HTML">
-              <img src="source/css.png" alt="css-icon" class="tech-shield" title="CSS">
-              <img src="source/js.png" alt="js-icon" class="tech-shield" title="JavaSript">
-            </div>
+      <div class="project-container">
+        <a href="#home">
+          <div class="img-wrapper">
+            <img class="project-img" src="source/projects/portfolio-img.jpg">
           </div>
-        </div>
-
-        <div class="project-container">
-          <a href="https://www.youtube.com/watch?v=gwaOvcCb9-w&t" target="_blank">
-            <div class="img-wrapper">
-              <img class="project-img" src="source/projects/autikids-img.jpg">
-            </div>
-          </a>
-
-          <div class="project-content">
-            <p class="title">🧩Autikids</p>
-            <p class="desc">Aplicação Desktop de comunicação alternativa de alta tecnologia voltada a melhorar a comunicação da criança portadora do espectro autista e sua inserção na sociedade. Feita em Python com as bibliotecas TKinter, Pygame e sqlite3.</p>
-            <div class="buttons-container">
-              
-              <a href="https://www.youtube.com/watch?v=gwaOvcCb9-w&t" target="_blank">
-                <button>
-                  <img src="source/video.png" alt="webpage-icon" class="social-icon">
-                  Apresentação
-                </button>
-              </a>
-
-              <a href="https://github.com/samubarreto/Autikids" target="_blank">
-                <button>
-                  <img src="source/github.png" alt="github-icon" class="social-icon">
-                  Código
-                </button>
-              </a>
-
-            </div>
-
-            <div class="shields-container">
-              <img src="source/python.png" alt="python-icon" class="tech-shield" title="Python">
-            </div>
-          </div>
-        </div>
-
-        <div class="project-container">
-          <a href="https://github.com/samubarreto/Pyautogui-Automations" target="_blank">
-            <div class="img-wrapper">
-              <img class="project-img" src="source/projects/pyautogui-img.jpg">
-            </div>
-          </a>
-
-          <div class="project-content">
-            <p class="title">🤖Pyautogui - Automações</p>
-            <p class="desc">Diversas aplicações desktop focadas em automatizar pequenos processos repetitivos que costumo realizar. Todas feitas em Python usando a biblioteca Pyautogui.</p>
-            <div class="buttons-container">
-
-              <a href="https://github.com/samubarreto/Pyautogui-Automations" target="_blank">
-                <button>
-                  <img src="source/github.png" alt="github-icon" class="social-icon">
-                  Código
-                </button>
-              </a>
-
-            </div>
-
-            <div class="shields-container">
-              <img src="source/python.png" alt="python-icon" class="tech-shield" title="Python">
-            </div>
-          </div>
-        </div>
-
-        <div class="project-container">
-          <a href="https://samubarreto.github.io/js-calculator/" target="_blank">
-            <div class="img-wrapper">
-              <img class="project-img" src="source/projects/calculator-img.jpg">
-            </div>
-          </a>
-
-          <div class="project-content">
-            <p class="title">🔢JS-Calculator</p>
-            <p class="desc">Calculadora web com dark/light mode, feita em HTML, CSS e JavaScript, usando eval(). Armazena o tema do usuário no localStorage e detecta seus KeyDowns para escrever as operações.</p>
-            <div class="buttons-container">
-              
-              <a href="https://samubarreto.github.io/js-calculator/" target="_blank">
-                <button>
-                  <img src="source/web-page.png" alt="webpage-icon" class="social-icon">
-                  Visualizar
-                </button>
-              </a>
-
-              <a href="https://github.com/samubarreto/js-calculator" target="_blank">
-                <button>
-                  <img src="source/github.png" alt="github-icon" class="social-icon">
-                  Código
-                </button>
-              </a>
-
-            </div>
-
-            <div class="shields-container">
-              <img src="source/html.png" alt="html-icon" class="tech-shield" title="HTML">
-              <img src="source/css.png" alt="css-icon" class="tech-shield" title="CSS">
-              <img src="source/js.png" alt="js-icon" class="tech-shield" title="JavaSript">
-            </div>
-          </div>
-        </div>
-
-        <a href="https://github.com/samubarreto?tab=repositories" target="_blank" class="more-projects">
-          <button>
-            <img src="source/github.png" alt="github-icon" class="social-icon">
-            + Projetos aqui
-          </button>
         </a>
-      </section>
 
-      <!-- Sobre mim -->
+        <div class="project-content">
+          <p class="title">📁Meu Portfólio Pessoal</p>
+          <p class="desc">Pois é, esse meu portfólio é um dos meus maiores projetos web, e talvez o que mais se
+            assemelha a um "site real". Com uma estrutura semelhante a uma landing page, ele foi desenvolvido com o
+            objetivo de compartilhar meu perfil profissional e projetos com maior facilidade. O código dele está todo
+            disponível no meu Github.</p>
+          <div class="buttons-container">
 
-      <div id="contact" style="height: 70px;">
-        <img class="down-arrow" alt="down-arrow" src="source/down-arrow.png"></img>
-      </div>
-
-      <section class="about-me-section" id="about">
-        <h3>🙋🏻Sobre mim</h3>
-
-        <p class="about-text">Me chamo Samuel Pereira Barreto, tenho 19 anos e curso Sistemas de Informação na Univem, Marília-SP. Atualmente, atuo em estágio como Analista de Qualidade (QA), Tester na Interfocus Tecnologia</p>
-
-        <p class="about-text">&#183;Bagagem de conhecimento em: HTML | CSS | JS | PostgreSQL | Python | Photoshop | Illustrator</p>
-
-        <p class="about-text">&#183;Pretendo aprender: MongoDB | Express.js | React.js | Node.js | Typescript</p>
-
-        <p class="about-text"><strong>Fiz esse portfólio com o objetivo de compartilhar meu perfil profissional, projetos e estudos com maior facilidade. O código dele está todo disponível no meu Github :&#41;</strong></p>
-      </section>
-    </main>
-
-    <footer id="contact">
-
-      <div class="footer-container">
-        <div class="footer-class">
-          <p class="footer-title">Navegação</p>
-          <a href="#home" class="footer-item link">Home</a>
-          <a href="#projects" class="footer-item link">Projetos</a>
-          <a href="#about" class="footer-item link">Sobre</a>
-        </div>
-
-        <div class="footer-class">
-          <p class="footer-title">Contato</p>
-          <p class="footer-item">+5514997973585</p>
-          <p class="footer-item">samu.barreto2004@gmail.com</p>
-        </div>
-
-        <div class="footer-class">
-          <p class="footer-title">Sociais</p>
-          <div class="footer-socials">
-
-            <a href="https://github.com/samubarreto" target="_blank">
-              <img src="source/github.png" class="social-icon" alt="github link" title="Github">
+            <a href="#home" target="_blank">
+              <button>
+                <img src="source/web-page.png" alt="webpage-icon" class="social-icon">
+                Visualizar
+              </button>
             </a>
 
-            <a href="https://www.linkedin.com/in/samubrreto" target="_blank">
-              <img src="source/linkedin.png" class="social-icon" alt="linkedin link" title="LinkedIn">
+            <a href="https://github.com/samubarreto/Portfolio" target="_blank">
+              <button>
+                <img src="source/github.png" alt="github-icon" class="social-icon">
+                Código
+              </button>
             </a>
 
-            <a href="https://api.whatsapp.com/send?phone=5514997973585" target="_blank">
-              <img src="source/whatsapp.png" class="social-icon" alt="whatsapp link" title="Whatsapp">
-            </a>
+          </div>
 
-            <a href="https://www.instagram.com/samubrreto/" target="_blank">
-              <img src="source/instagram.png" class="social-icon" alt="instagram link" title="Instagram">
-            </a>
+          <div class="shields-container">
+            <img src="source/html.png" alt="html-icon" class="tech-shield" title="HTML">
+            <img src="source/css.png" alt="css-icon" class="tech-shield" title="CSS">
+            <img src="source/js.png" alt="js-icon" class="tech-shield" title="JavaScript">
           </div>
         </div>
       </div>
-      <p class="ending">Feito com ❤️ por mim mesmo.</p>
-    </footer>
-    <script src="scripts.js"></script>
-  </body>
+
+      <div class="project-container">
+        <a href="https://www.youtube.com/watch?v=gwaOvcCb9-w&t" target="_blank">
+          <div class="img-wrapper">
+            <img class="project-img" src="source/projects/autikids-img.jpg">
+          </div>
+        </a>
+
+        <div class="project-content">
+          <p class="title">🧩Autikids</p>
+          <p class="desc">Aplicação Desktop de comunicação alternativa de alta tecnologia voltada a melhorar a
+            comunicação da criança portadora do espectro autista e sua inserção na sociedade. Feita em Python com as
+            bibliotecas TKinter, Pygame e sqlite3.</p>
+          <div class="buttons-container">
+
+            <a href="https://www.youtube.com/watch?v=gwaOvcCb9-w&t" target="_blank">
+              <button>
+                <img src="source/video.png" alt="webpage-icon" class="social-icon">
+                Apresentação
+              </button>
+            </a>
+
+            <a href="https://github.com/samubarreto/Autikids" target="_blank">
+              <button>
+                <img src="source/github.png" alt="github-icon" class="social-icon">
+                Código
+              </button>
+            </a>
+
+          </div>
+
+          <div class="shields-container">
+            <img src="source/python.png" alt="python-icon" class="tech-shield" title="Python">
+          </div>
+        </div>
+      </div>
+
+      <div class="project-container">
+        <a href="https://github.com/samubarreto/Pyautogui-Automations" target="_blank">
+          <div class="img-wrapper">
+            <img class="project-img" src="source/projects/pyautogui-img.jpg">
+          </div>
+        </a>
+
+        <div class="project-content">
+          <p class="title">🤖Pyautogui - Automações</p>
+          <p class="desc">Diversas aplicações desktop focadas em automatizar pequenos processos repetitivos que costumo
+            realizar. Todas feitas em Python usando a biblioteca Pyautogui.</p>
+          <div class="buttons-container">
+
+            <a href="https://github.com/samubarreto/Pyautogui-Automations" target="_blank">
+              <button>
+                <img src="source/github.png" alt="github-icon" class="social-icon">
+                Código
+              </button>
+            </a>
+
+          </div>
+
+          <div class="shields-container">
+            <img src="source/python.png" alt="python-icon" class="tech-shield" title="Python">
+          </div>
+        </div>
+      </div>
+
+      <div class="project-container">
+        <a href="https://samubarreto.github.io/js-calculator/" target="_blank">
+          <div class="img-wrapper">
+            <img class="project-img" src="source/projects/calculator-img.jpg">
+          </div>
+        </a>
+
+        <div class="project-content">
+          <p class="title">🔢JS-Calculator</p>
+          <p class="desc">Calculadora web com dark/light mode, feita em HTML, CSS e JavaScript, usando eval(). Armazena
+            o tema do usuário no localStorage e detecta seus KeyDowns para escrever as operações.</p>
+          <div class="buttons-container">
+
+            <a href="https://samubarreto.github.io/js-calculator/" target="_blank">
+              <button>
+                <img src="source/web-page.png" alt="webpage-icon" class="social-icon">
+                Visualizar
+              </button>
+            </a>
+
+            <a href="https://github.com/samubarreto/js-calculator" target="_blank">
+              <button>
+                <img src="source/github.png" alt="github-icon" class="social-icon">
+                Código
+              </button>
+            </a>
+
+          </div>
+
+          <div class="shields-container">
+            <img src="source/html.png" alt="html-icon" class="tech-shield" title="HTML">
+            <img src="source/css.png" alt="css-icon" class="tech-shield" title="CSS">
+            <img src="source/js.png" alt="js-icon" class="tech-shield" title="JavaScript">
+          </div>
+        </div>
+      </div>
+
+      <a href="https://github.com/samubarreto?tab=repositories" target="_blank" class="more-projects">
+        <button>
+          <img src="source/github.png" alt="github-icon" class="social-icon">
+          + Projetos aqui
+        </button>
+      </a>
+    </section>
+
+    <!-- Sobre mim -->
+
+    <div id="contact" style="height: 70px;">
+      <img class="down-arrow" alt="down-arrow" src="source/down-arrow.png"></img>
+    </div>
+
+    <section class="about-me-section" id="about">
+      <h3>🙋🏻Sobre mim</h3>
+
+      <p class="about-text">Me chamo Samuel Pereira Barreto, tenho 19 anos e curso Sistemas de Informação na Univem,
+        Marília-SP. Atualmente, atuo em estágio como Analista de Qualidade (QA), Tester na Interfocus Tecnologia</p>
+
+      <p class="about-text">&#183;Bagagem de conhecimento em: HTML | CSS | JS | PostgreSQL | Python | Photoshop |
+        Illustrator</p>
+
+      <p class="about-text">&#183;Pretendo aprender: MongoDB | Express.js | React.js | Node.js | Typescript</p>
+
+      <p class="about-text"><strong>Fiz esse portfólio com o objetivo de compartilhar meu perfil profissional, projetos
+          e estudos com maior facilidade. O código dele está todo disponível no meu Github :&#41;</strong></p>
+    </section>
+  </main>
+
+  <footer id="contact">
+
+    <div class="footer-container">
+      <div class="footer-class">
+        <p class="footer-title">Navegação</p>
+        <a href="#home" class="footer-item link">Home</a>
+        <a href="#projects" class="footer-item link">Projetos</a>
+        <a href="#about" class="footer-item link">Sobre</a>
+      </div>
+
+      <div class="footer-class">
+        <p class="footer-title">Contato</p>
+        <p class="footer-item">+5514997973585</p>
+        <p class="footer-item">samu.barreto2004@gmail.com</p>
+      </div>
+
+      <div class="footer-class">
+        <p class="footer-title">Sociais</p>
+        <div class="footer-socials">
+
+          <a href="https://github.com/samubarreto" target="_blank">
+            <img src="source/github.png" class="social-icon" alt="github link" title="Github">
+          </a>
+
+          <a href="https://www.linkedin.com/in/samubrreto" target="_blank">
+            <img src="source/linkedin.png" class="social-icon" alt="linkedin link" title="LinkedIn">
+          </a>
+
+          <a href="https://api.whatsapp.com/send?phone=5514997973585" target="_blank">
+            <img src="source/whatsapp.png" class="social-icon" alt="whatsapp link" title="Whatsapp">
+          </a>
+
+          <a href="https://www.instagram.com/samubrreto/" target="_blank">
+            <img src="source/instagram.png" class="social-icon" alt="instagram link" title="Instagram">
+          </a>
+        </div>
+      </div>
+    </div>
+    <p class="ending">Feito com ❤️ por mim mesmo.</p>
+  </footer>
+  <script src="scripts.js"></script>
+</body>
+
 </html>
